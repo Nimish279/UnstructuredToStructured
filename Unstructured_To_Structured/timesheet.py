@@ -9,15 +9,15 @@ from datetime import datetime
 from sqlalchemy import create_engine, text
 
 # ==========================================
-# 🔑 CONFIGURATION
+# 🔑 CONFIGURATION FOR API KEY
 # ==========================================
 API_KEY = "AIzaSyAja7pgLoX81s55kvyr7iH1nFIpdbKsraQ"
 REPORTS_FOLDER = "reports"
 
 # 👇👇👇 MYSQL CONFIGURATION 👇👇👇
 DB_HOST = "localhost"
-DB_USER = "nimish"
-DB_PASSWORD = "" # <--- ENTER YOUR PASSWORD HERE IF YOU HAVE ONE
+DB_USER = ""
+DB_PASSWORD = ""
 DB_NAME = "timesheet_reports"
 
 # ==========================================
